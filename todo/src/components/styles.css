@@ -1,0 +1,86 @@
+.todoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+
+.todoList {
+  background-color: #4d4d4d;
+  width: 1080px;
+  min-height: 420px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.todoListItem {
+  margin: 0 0 20px 0;
+}
+
+.pageTitle {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.todo {
+  background-color: #8b7d7d;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo.todoCompleted {
+  background-color: #655858;
+}
+
+.addTodo .todoTitle,
+.addTodo .todoDesc {
+  height: 60px;
+  background-color: transparent;
+  padding: 0;
+}
+
+.todoTitle {
+  font-weight: 700;
+  font-size: 24px;
+  width: 250px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todoDesc {
+  font-weight: 700;
+  font-size: 24px;
+  width: 600px;
+  text-align: left;
+  background-color: #655a5a;
+  padding: 5px;
+}
+
+.todoActions {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.todoActions button {
+  margin: 0 5px 0 0;
+}
+
+.addBtn {
+  background-color: #34dd88;
+}
+
+.doneBtn {
+  background-color: #7b85cf;
+}
+
+.removeBtn {
+  background-color: #cf7b7b;
+}
